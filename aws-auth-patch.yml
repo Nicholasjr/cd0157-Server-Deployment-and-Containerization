@@ -8,12 +8,12 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
     - groups:
       - system:masters
-      rolearn: arn:aws:iam::<ACCOUNT_ID>:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::472342050930:role/UdacityFlaskDeployCBKubectlRole
       username: build
 kind: ConfigMap
 metadata:
   creationTimestamp: "2022-08-14T11:52:55Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1613"
+  resourceVersion: "97194"
   uid: f459e8a3-860d-49a0-a775-06a5bb550e35
